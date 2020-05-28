@@ -1,0 +1,96 @@
+body{
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    align-content: center;
+}
+
+.grid {
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dcd6bc;
+    align-items: center;
+    border: 10px solid #dcd6bc;
+    margin: 0 auto;
+}
+
+div {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.valid {
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+}
+
+.checked {
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    background-color: #cecab7;
+    border-color: #9c998d;
+    box-sizing: border-box;
+}
+
+.bomb {
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+}
+
+.one {
+    color: #e76346;
+}
+
+.two {
+    color: #4199d3;
+}
+
+.three {
+    color: #57da59;
+}
+
+.four {
+    color: #bb41d3;
+}
+
+#result {
+    color: #e76346;
+    font-size: 15px;
+}
+
+#flags{
+    font-size: 18px;
+    color: white;
+}
+
+button{
+    border-image-slice: 2;
+    border-image-width: 2;
+    border-image-repeat: stretch;
+    border-image-outset: 2;
+    position: relative;
+    display: inline-block;
+    padding: 6px 8px;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #212529;
+    background-color: #fff;
+    cursor: pointer;
+}
