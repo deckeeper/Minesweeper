@@ -161,7 +161,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //game over
     function gameOver(square) {
-        swal("BOOM!", "Game Over!", "error");
         result.innerHTML = 'BOOM! Game Over!'
         isGameOver = true
 
@@ -185,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 matches++
             }
             if (matches === bombAmount) {
-                swal("Good job!", "You win!", "success");
+                document.querySelector('.pyro').style.display='block';
                 result.innerHTML = 'YOU WIN!'
                 isGameOver = true
             }
